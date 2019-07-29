@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/checkData/checkData",
+    "pages/userCenter/userCenter",
+    "pages/seatResevation/seatResevation"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "selectedIconPath": "images/index/ic_tab_home_light@2x.png",
+        "iconPath": "images/index/ic_tab_home_normal@2x.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/index/ic_tab_look_light@2x.png",
+        "iconPath": "images/index/ic_tab_look_normal@2x.png",
+        "pagePath": "pages/checkData/checkData",
+        "text": "查阅资料"
+      },
+      {
+        "selectedIconPath": "images/index/ic_tab_seat_light@2x.png",
+        "iconPath": "images/index/ic_tab_seat_normal@2x.png",
+        "pagePath": "pages/seatResevation/seatResevation",
+        "text": "座位预定"
+      },
+      {
+        "selectedIconPath": "images/index/ic_tab_my_light@2x.png",
+        "iconPath": "images/index/ic_tab_my_normal@2x.png",
+        "pagePath": "pages/userCenter/userCenter",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

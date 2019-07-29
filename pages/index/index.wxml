@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+<view class="home_page_box">
+  <view class="home_page_content">
+    <view class="home_page_top">
+      <swiper indicator-dots="true" indicator-active-color="rgba(71,73,90,1)" indicator-color="rgba(71,73,90,.3)" class="hpt_swiper_style">
+        <swiper-item class="hpt_swiper_item_style">1</swiper-item>
+        <swiper-item class="hpt_swiper_item_style">2</swiper-item>
+        <swiper-item class="hpt_swiper_item_style">3</swiper-item>
+      </swiper>
+      <view class="home_page_link">
+        <view class="home_page_link_left">
+          <image src="../../images/index/pic_home_look@2x.png" class="hpl_left_top"></image>
+          <image src="../../images/index/pic_home_integral@2x.png" class="hpl_left_bottom"></image>
+        </view>
+        <view class="home_page_link_right">
+          <view class="hpl_right"></view>
+        </view>
+      </view>
+    </view>
+    <view class="home_page_bottom"></view>
+  </view>
+</view>

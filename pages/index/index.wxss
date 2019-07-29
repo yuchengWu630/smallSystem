@@ -1,0 +1,18 @@
+/**index.wxss**/
+.hpt_swiper_style {
+  height: 320rpx;
+  background-color: #ce8;
+}
+.home_page_link {
+  display: flex;
+  margin-top: 40rpx;
+  padding: 0 30rpx;
+}
+.hpl_left_top {
+  width: 340rpx;
+  height: 165rpx;
+  display: inline-block;
+}
+.hpl_left_bottom {
+  
+}
